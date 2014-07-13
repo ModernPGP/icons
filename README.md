@@ -93,5 +93,8 @@ The signature was good and came from a verified key, w00t!
 
 
 #### Error
-There was a weird programatic error trying to analyze this signature
+This state exists when there was a weird programatic error trying to analyze this signature. There is no icon for this state
+
+#### None
+This state exists when there was no signature. There is no icon for this state.
 
