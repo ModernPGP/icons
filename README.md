@@ -98,3 +98,17 @@ This state exists when there was a weird programatic error trying to analyze thi
 #### None
 This state exists when there was no signature. There is no icon for this state.
 
+
+QR Code
+=======
+* monkeysphere URI scheme is ugly: ``openpgp4fpr:73EE2314F65FA92EC2390D3A718C070100012282``
+* ``openpgp4fpr`` makes no sense
+
+our proposal: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282``  
+optional parameters:
+* ``name``
+* ``address`` (e.g. email, jabber)
+* ``url``
+* ``keyserver``
+
+Example: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282?keyserver=hkp://pool.skskeyservers.net&address=dominik@dominikschuermann.de&url=http://sufficientlysecure.org&name=Dominik``
