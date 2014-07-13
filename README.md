@@ -107,8 +107,8 @@ QR Code
 our proposal: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282``  
 optional parameters:
 * ``name``
-* ``address`` (e.g. email, jabber)
+* ``email``
 * ``url``
 * ``keyserver``
 
-Example: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282?keyserver=hkp://pool.skskeyservers.net&address=dominik@dominikschuermann.de&url=http://sufficientlysecure.org&name=Dominik``
+Example: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282?keyserver=hkp://pool.skskeyservers.net&email=dominik@dominikschuermann.de&url=http://sufficientlysecure.org&name=Dominik``
