@@ -15,6 +15,17 @@ Projects
 Encryption
 ==========
 
+
+| Icon                                 | Status           |
+|--------------------------------------|------------------|
+| Nicknym[lm1]                         | Open             |
+| DNS PKA[lm2]                         | Close            |
+| draft-wouters-dane-openpgp-02[lm3]   | Error            |
+| Received keys in E-mail              | Missing Key      |
+| OpenPGP header in E-mail             | 2                |
+| keybase.io                           | 1                |
+| PGP Keyservers                       | 1                |
+
 #### Open
 
 The open lock icon SHOULD be used to represent a message or data that is going to be sent "unencrypted"
@@ -98,17 +109,3 @@ This state exists when there was a weird programatic error trying to analyze thi
 #### None
 This state exists when there was no signature. There is no icon for this state.
 
-
-QR Code
-=======
-* monkeysphere URI scheme is ugly: ``openpgp4fpr:73EE2314F65FA92EC2390D3A718C070100012282``
-* ``openpgp4fpr`` makes no sense
-
-our proposal: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282``  
-optional parameters:
-* ``name``
-* ``email``
-* ``url``
-* ``keyserver``
-
-Example: ``pgp-fingerprint:73EE2314F65FA92EC2390D3A718C070100012282?keyserver=hkp://pool.skskeyservers.net&email=dominik@dominikschuermann.de&url=http://sufficientlysecure.org&name=Dominik``
